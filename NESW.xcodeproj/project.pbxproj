@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2F10891F6A37BE006D6874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F10881F6A37BE006D6874 /* AppDelegate.swift */; };
+		FA2F108B1F6A37BE006D6874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F108A1F6A37BE006D6874 /* ViewController.swift */; };
+		FA2F108E1F6A37BE006D6874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F108C1F6A37BE006D6874 /* Main.storyboard */; };
+		FA2F10911F6A37BE006D6874 /* NESW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA2F108F1F6A37BE006D6874 /* NESW.xcdatamodeld */; };
+		FA2F10931F6A37BE006D6874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2F10921F6A37BE006D6874 /* Assets.xcassets */; };
+		FA2F10961F6A37BE006D6874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F10941F6A37BE006D6874 /* LaunchScreen.storyboard */; };
+		FA2F10A11F6A37BE006D6874 /* NESWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F10A01F6A37BE006D6874 /* NESWTests.swift */; };
+		FA2F10AC1F6A37BE006D6874 /* NESWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F10AB1F6A37BE006D6874 /* NESWUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2F109D1F6A37BE006D6874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2F107D1F6A37BE006D6874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2F10841F6A37BE006D6874;
+			remoteInfo = NESW;
+		};
+		FA2F10A81F6A37BE006D6874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2F107D1F6A37BE006D6874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2F10841F6A37BE006D6874;
+			remoteInfo = NESW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2F10851F6A37BE006D6874 /* NESW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F10881F6A37BE006D6874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA2F108A1F6A37BE006D6874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA2F108D1F6A37BE006D6874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2F10901F6A37BE006D6874 /* NESW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NESW.xcdatamodel; sourceTree = "<group>"; };
+		FA2F10921F6A37BE006D6874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2F10951F6A37BE006D6874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2F10971F6A37BE006D6874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2F109C1F6A37BE006D6874 /* NESWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F10A01F6A37BE006D6874 /* NESWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWTests.swift; sourceTree = "<group>"; };
+		FA2F10A21F6A37BE006D6874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2F10A71F6A37BE006D6874 /* NESWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F10AB1F6A37BE006D6874 /* NESWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWUITests.swift; sourceTree = "<group>"; };
+		FA2F10AD1F6A37BE006D6874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2F10821F6A37BE006D6874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F10991F6A37BE006D6874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F10A41F6A37BE006D6874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2F107C1F6A37BE006D6874 = {
+			isa = PBXGroup;
+			children = (
+				FA2F10871F6A37BE006D6874 /* NESW */,
+				FA2F109F1F6A37BE006D6874 /* NESWTests */,
+				FA2F10AA1F6A37BE006D6874 /* NESWUITests */,
+				FA2F10861F6A37BE006D6874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2F10861F6A37BE006D6874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F10851F6A37BE006D6874 /* NESW.app */,
+				FA2F109C1F6A37BE006D6874 /* NESWTests.xctest */,
+				FA2F10A71F6A37BE006D6874 /* NESWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2F10871F6A37BE006D6874 /* NESW */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F10881F6A37BE006D6874 /* AppDelegate.swift */,
+				FA2F108A1F6A37BE006D6874 /* ViewController.swift */,
+				FA2F108C1F6A37BE006D6874 /* Main.storyboard */,
+				FA2F10921F6A37BE006D6874 /* Assets.xcassets */,
+				FA2F10941F6A37BE006D6874 /* LaunchScreen.storyboard */,
+				FA2F10971F6A37BE006D6874 /* Info.plist */,
+				FA2F108F1F6A37BE006D6874 /* NESW.xcdatamodeld */,
+			);
+			path = NESW;
+			sourceTree = "<group>";
+		};
+		FA2F109F1F6A37BE006D6874 /* NESWTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F10A01F6A37BE006D6874 /* NESWTests.swift */,
+				FA2F10A21F6A37BE006D6874 /* Info.plist */,
+			);
+			path = NESWTests;
+			sourceTree = "<group>";
+		};
+		FA2F10AA1F6A37BE006D6874 /* NESWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F10AB1F6A37BE006D6874 /* NESWUITests.swift */,
+				FA2F10AD1F6A37BE006D6874 /* Info.plist */,
+			);
+			path = NESWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2F10841F6A37BE006D6874 /* NESW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2F10B01F6A37BE006D6874 /* Build configuration list for PBXNativeTarget "NESW" */;
+			buildPhases = (
+				FA2F10811F6A37BE006D6874 /* Sources */,
+				FA2F10821F6A37BE006D6874 /* Frameworks */,
+				FA2F10831F6A37BE006D6874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESW;
+			productName = NESW;
+			productReference = FA2F10851F6A37BE006D6874 /* NESW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2F109B1F6A37BE006D6874 /* NESWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2F10B31F6A37BE006D6874 /* Build configuration list for PBXNativeTarget "NESWTests" */;
+			buildPhases = (
+				FA2F10981F6A37BE006D6874 /* Sources */,
+				FA2F10991F6A37BE006D6874 /* Frameworks */,
+				FA2F109A1F6A37BE006D6874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2F109E1F6A37BE006D6874 /* PBXTargetDependency */,
+			);
+			name = NESWTests;
+			productName = NESWTests;
+			productReference = FA2F109C1F6A37BE006D6874 /* NESWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2F10A61F6A37BE006D6874 /* NESWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2F10B61F6A37BE006D6874 /* Build configuration list for PBXNativeTarget "NESWUITests" */;
+			buildPhases = (
+				FA2F10A31F6A37BE006D6874 /* Sources */,
+				FA2F10A41F6A37BE006D6874 /* Frameworks */,
+				FA2F10A51F6A37BE006D6874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2F10A91F6A37BE006D6874 /* PBXTargetDependency */,
+			);
+			name = NESWUITests;
+			productName = NESWUITests;
+			productReference = FA2F10A71F6A37BE006D6874 /* NESWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2F107D1F6A37BE006D6874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Harshada;
+				TargetAttributes = {
+					FA2F10841F6A37BE006D6874 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ED6GD8VE2H;
+						ProvisioningStyle = Automatic;
+					};
+					FA2F109B1F6A37BE006D6874 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ED6GD8VE2H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2F10841F6A37BE006D6874;
+					};
+					FA2F10A61F6A37BE006D6874 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ED6GD8VE2H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2F10841F6A37BE006D6874;
+					};
+				};
+			};
+			buildConfigurationList = FA2F10801F6A37BE006D6874 /* Build configuration list for PBXProject "NESW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2F107C1F6A37BE006D6874;
+			productRefGroup = FA2F10861F6A37BE006D6874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2F10841F6A37BE006D6874 /* NESW */,
+				FA2F109B1F6A37BE006D6874 /* NESWTests */,
+				FA2F10A61F6A37BE006D6874 /* NESWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2F10831F6A37BE006D6874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F10961F6A37BE006D6874 /* LaunchScreen.storyboard in Resources */,
+				FA2F10931F6A37BE006D6874 /* Assets.xcassets in Resources */,
+				FA2F108E1F6A37BE006D6874 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F109A1F6A37BE006D6874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F10A51F6A37BE006D6874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2F10811F6A37BE006D6874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F108B1F6A37BE006D6874 /* ViewController.swift in Sources */,
+				FA2F10911F6A37BE006D6874 /* NESW.xcdatamodeld in Sources */,
+				FA2F10891F6A37BE006D6874 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F10981F6A37BE006D6874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F10A11F6A37BE006D6874 /* NESWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F10A31F6A37BE006D6874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F10AC1F6A37BE006D6874 /* NESWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2F109E1F6A37BE006D6874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2F10841F6A37BE006D6874 /* NESW */;
+			targetProxy = FA2F109D1F6A37BE006D6874 /* PBXContainerItemProxy */;
+		};
+		FA2F10A91F6A37BE006D6874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2F10841F6A37BE006D6874 /* NESW */;
+			targetProxy = FA2F10A81F6A37BE006D6874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2F108C1F6A37BE006D6874 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2F108D1F6A37BE006D6874 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2F10941F6A37BE006D6874 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2F10951F6A37BE006D6874 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2F10AE1F6A37BE006D6874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2F10AF1F6A37BE006D6874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2F10B11F6A37BE006D6874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ED6GD8VE2H;
+				INFOPLIST_FILE = NESW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshada.NESW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA2F10B21F6A37BE006D6874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ED6GD8VE2H;
+				INFOPLIST_FILE = NESW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshada.NESW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA2F10B41F6A37BE006D6874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ED6GD8VE2H;
+				INFOPLIST_FILE = NESWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshada.NESWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESW.app/NESW";
+			};
+			name = Debug;
+		};
+		FA2F10B51F6A37BE006D6874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ED6GD8VE2H;
+				INFOPLIST_FILE = NESWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshada.NESWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESW.app/NESW";
+			};
+			name = Release;
+		};
+		FA2F10B71F6A37BE006D6874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ED6GD8VE2H;
+				INFOPLIST_FILE = NESWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshada.NESWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NESW;
+			};
+			name = Debug;
+		};
+		FA2F10B81F6A37BE006D6874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ED6GD8VE2H;
+				INFOPLIST_FILE = NESWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshada.NESWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NESW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2F10801F6A37BE006D6874 /* Build configuration list for PBXProject "NESW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F10AE1F6A37BE006D6874 /* Debug */,
+				FA2F10AF1F6A37BE006D6874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2F10B01F6A37BE006D6874 /* Build configuration list for PBXNativeTarget "NESW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F10B11F6A37BE006D6874 /* Debug */,
+				FA2F10B21F6A37BE006D6874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2F10B31F6A37BE006D6874 /* Build configuration list for PBXNativeTarget "NESWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F10B41F6A37BE006D6874 /* Debug */,
+				FA2F10B51F6A37BE006D6874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2F10B61F6A37BE006D6874 /* Build configuration list for PBXNativeTarget "NESWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F10B71F6A37BE006D6874 /* Debug */,
+				FA2F10B81F6A37BE006D6874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA2F108F1F6A37BE006D6874 /* NESW.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA2F10901F6A37BE006D6874 /* NESW.xcdatamodel */,
+			);
+			currentVersion = FA2F10901F6A37BE006D6874 /* NESW.xcdatamodel */;
+			path = NESW.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA2F107D1F6A37BE006D6874 /* Project object */;
+}
