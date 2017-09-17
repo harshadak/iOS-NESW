@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Nesw View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="NeswViewController" customModule="NESW" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,129 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aL-G2-GBE">
+                                <rect key="frame" x="142" y="40" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.4018507160539937" green="0.67578899720974717" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="jGd-tX-S5v"/>
+                                    <constraint firstAttribute="height" constant="90" id="sn6-rW-KLx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="North">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y5Q-Lx-Tvv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWJ-yK-3Ej">
+                                <rect key="frame" x="277" y="288.5" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.4018507161" green="0.67578899719999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="0Pq-oX-QBQ"/>
+                                    <constraint firstAttribute="height" constant="90" id="wLe-hv-5Vi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="East">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h38-ia-nTo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyZ-jc-hBL">
+                                <rect key="frame" x="142" y="557" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.4018507161" green="0.67578899719999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="BrS-Jh-pWk"/>
+                                    <constraint firstAttribute="height" constant="90" id="uOd-Ue-XZC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="South">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfx-h6-LYD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oul-II-nbz">
+                                <rect key="frame" x="24" y="288.5" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.4018507161" green="0.67578899719999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="XDm-lV-WoC"/>
+                                    <constraint firstAttribute="width" constant="90" id="mZo-Ua-kwm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="West">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YJE-oe-S99"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4147110396" green="0.97807949110000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3aL-G2-GBE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="8QR-bV-9nr"/>
+                            <constraint firstItem="AWJ-yK-3Ej" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MNd-Ba-P1l"/>
+                            <constraint firstAttribute="trailing" secondItem="AWJ-yK-3Ej" secondAttribute="trailing" constant="8" id="Vlw-59-Mxs"/>
+                            <constraint firstItem="3aL-G2-GBE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eil-H1-cI6"/>
+                            <constraint firstItem="Oul-II-nbz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="orm-UQ-dyp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NyZ-jc-hBL" secondAttribute="bottom" constant="20" id="pNI-tT-nVd"/>
+                            <constraint firstItem="Oul-II-nbz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="rrm-bL-WzR"/>
+                            <constraint firstItem="NyZ-jc-hBL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xR6-cE-A2f"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="STL-UV-BI6" kind="presentation" identifier="DirectionSegue" id="GGK-Tb-pxa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-63.200000000000003" y="130.88455772113943"/>
+        </scene>
+        <!--Direction View Controller-->
+        <scene sceneID="fga-e0-Nkt">
+            <objects>
+                <viewController id="STL-UV-BI6" customClass="DirectionViewController" customModule="NESW" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="izu-ge-TXb"/>
+                        <viewControllerLayoutGuide type="bottom" id="ysA-Ee-hDl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Po1-H8-16a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtp-vq-f6l">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.4018507161" green="0.67578899719999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="HPH-RB-AOX"/>
+                                    <constraint firstAttribute="height" constant="100" id="zTe-YP-ELM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="STL-UV-BI6" eventType="touchUpInside" id="sjz-eP-QO8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4147110396" green="0.97807949110000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dtp-vq-f6l" firstAttribute="centerY" secondItem="Po1-H8-16a" secondAttribute="centerY" id="ZNx-OG-pDW"/>
+                            <constraint firstItem="dtp-vq-f6l" firstAttribute="centerX" secondItem="Po1-H8-16a" secondAttribute="centerX" id="e9f-9L-8dG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="goBackButton" destination="dtp-vq-f6l" id="o4H-G2-hiA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Giw-cQ-ueC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="131"/>
         </scene>
     </scenes>
 </document>
